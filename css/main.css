@@ -2,18 +2,15 @@ html {
   font-family: Merriweather, serif;
 }
 
+td,
 th {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-}
-
-td {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px solid #ccc;
 }
 
 tbody td {
-height: 11em
+height: 10em;
+}
+
+td {
+  text-align: right;
 }
